@@ -5,13 +5,15 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-
 public class CalculatorTests {
 	private Calculator calc;
+
 	@Before
 	public void newCalculator() {
 		calc = new Calculator();
-	}
+	}			
+
+	@SuppressWarnings("static-access")
 	@Test
 	public void testAdd() {
 		assertEquals(3, calc.add(1, 2));
@@ -21,4 +23,11 @@ public class CalculatorTests {
 		assertEquals(32, calc.add(-68, 100));
 		assertEquals(0, calc.add(0, 0));
 	}
+
+	@SuppressWarnings("static-access")
+	@Test
+	public void testRemove(){
+		assertEquals(3, calc.subtract(6, 3));
+	}
+	
 }
