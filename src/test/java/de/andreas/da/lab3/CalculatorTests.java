@@ -22,6 +22,7 @@ public class CalculatorTests {
 		assertEquals(-2, calc.add(7, -9));
 		assertEquals(32, calc.add(-68, 100));
 		assertEquals(0, calc.add(0, 0));
+		assertEquals(2, calc.add(5, 5));
 	}
 
 	@SuppressWarnings("static-access")
