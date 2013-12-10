@@ -5,7 +5,6 @@ public class Calculator {
 		//another commit for conflict
 		return a + b;
 	}
-
 	
 	/**
 	 * @param a
@@ -14,5 +13,9 @@ public class Calculator {
 	 */
 	public static int subtract(int a, int b) {
 		return a - b;
+	}
+
+	public static int multiple(int a, int b) {
+		return a * b;
 	}
 }
