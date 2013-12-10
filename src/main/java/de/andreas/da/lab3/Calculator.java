@@ -5,6 +5,12 @@ public class Calculator {
 		return a + b;
 	}
 
+	
+	/**
+	 * @param a
+	 * @param b
+	 * @return
+	 */
 	public static int subtract(int a, int b) {
 		return a - b;
 	}
